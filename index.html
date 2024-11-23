@@ -1,0 +1,50 @@
+<!-- 23/11/2024-Nacho Uceda González -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Ejercicio-cita-gva">
+    <meta name="keywords" content="Ejercicio-cita">
+    <meta name="author" content="Juan Ignacio">
+    <meta name="robots" content="index, follow">
+    <title>Formulario de cita</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img src="./logo.png" alt="Generalitat Valenciana" class="logo">
+    <h1>Generalitat Valenciana</h1>
+    <h2>Cita Previa - Identificación de la persona solicitante</h2>
+    <main>
+        <section>
+            <span class="letraa" tabindex="-1">A</span>
+            <h3>Datos de la Persona Solicitante</h3>
+            <form action="#" method="post">
+                <label for="sip">Introduzca su número de tarjeta SIP</label>
+                <div class="form-grupo">
+                    <input type="text" id="sip" name="sip" placeholder="Número SIP" required>
+                </div>
+                <div class="form-grupo">
+                    <label>Fecha de nacimiento:</label>
+                    <div class="alinear">
+                        <input type="text" id="dia" name="dia" placeholder="Día" maxlength="2" required>
+                        <input type="text" id="mes" name="mes" placeholder="Mes" maxlength="2" required>
+                        <input type="text" id="anyo" name="anyo" placeholder="Año" maxlength="4" required>
+                    </div>
+                </div>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+        <section class="images">
+            <h4>Ejemplo de tarjetas SIP</h4>
+            <div>
+                <img src="./tarjeta1.JPG" alt="Tarjeta SIP 1" class="img">
+            </div>
+        </section>
+    </main>
+    <br>
+    <br>
+    <footer>
+        <p>Generalitat Valenciana</p>
+    </footer>
+</body>
+</html>
